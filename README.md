@@ -12,3 +12,13 @@ su GNU/Linux e MAC OS funziona, su Windows, da riga di comando troverete
 un po' di difficoltà ad eseguire un browser.
 
 Se trovate un modo migliorate questo README.md
+
+### Come funziona il gioco?
+
+Provate a dedurlo dalle righe di codice in index.html dentro il tag `<script>`.
+
+Partite dall'esecuzione del ruggito (riga: `roar.play()`), e provate a leggere
+le righe precedenti per capire la condizione che fa scattare "il roar".
+
+Questo ovviamente per capire il funzionamento base delle tecnologie web HTML + Javascript
+(in modo minore anche CSS)
