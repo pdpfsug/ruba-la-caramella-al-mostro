@@ -17,7 +17,7 @@
     </head>
     <body>
         <audio id="roar">
-            <source src="ciao.ogg" type="audio/ogg">
+            <source src="roar.ogg" type="audio/ogg">
         </audio>
         <img id="monster" src="blue-monster.jpg">
         <img id="candy" src="candy.jpg">
@@ -27,11 +27,11 @@
                 $('#monster').hide();
                 $('#candy').show();
             }
-            $(document).on('keyup', function(e){
+            $(document).on('keydown', function(e){
                 console.log(e.which);
-                if(e.which == 32) { // space
+                if(e.which == 38) { // arrow up 
                     $('#candy').hide();
-                    $('#monster').show();
+                      $('#monster').show();
                     roar.currentTime = 0;
                     roar.play();
                 }
